@@ -9,6 +9,7 @@ fun main() {
 }
 
 // 2. 함수
+// 오버로딩 대신 Default Value를 이용할 수 있다.
 fun test(a: Int, b: Int = 3, c: Int = 4): Int {
     println(a + b)
     return a + b
